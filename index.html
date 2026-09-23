@@ -1,0 +1,261 @@
+<!DOCTYPEDOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+    <img src="images/logo1.jpg" class="logo">
+
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1> Hi, I'm <span> Sanjay</span><br>GP from India</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/designing.png">
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                  <p>
+                    Hello! I am a passionate student interested in technology,
+                    programming and artificial intelligence. I enjoy learning
+                    new technologies and building useful projects.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">
+                        Skills
+                    </p>
+
+                    <p class="tab-links" onclick="opentab('experience')">
+                        Experience
+                    </p>
+
+                    <p class="tab-links" onclick="opentab('education')">
+                        Education
+                    </p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Programming</li>
+                        <li><span>C</span><br>Programming</li>
+                        <li><span>HTML/CSS</span><br>Web Development</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>2026 - Present</span><br>
+                            Student Projects
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>2025 - 2029</span><br>
+                            B.E. Computer Science Engineering(AI & ML)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="container">
+
+        <h1 class="sub-title">My Services</h1>
+
+        <div class="services-list">
+
+            <div>
+                <h2>Web Design</h2>
+
+                <p>
+                    I can create simple and responsive websites
+                    using HTML and CSS.
+                </p>
+
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <h2>Python Programming</h2>
+
+                <p>
+                    I can build programs and solve problems
+                    using Python.
+                </p>
+
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <h2>AI & ML</h2>
+
+                <p>
+                    I am learning artificial intelligence and
+                    machine learning concepts.
+                </p>
+
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="portfolio">
+    <div class="container">
+
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="work-list">
+
+            <div class="work">
+                <img src="images/work-1.png">
+
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A responsive personal portfolio website
+                        created using HTML, CSS and JavaScript.
+                    </p>
+                    <a href="#">↗</a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png">
+
+                <div class="layer">
+                    <h3>Python Project</h3>
+                    <p>
+                        A Python based programming project.
+                    </p>
+                    <a href="#">↗</a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+
+                <div class="layer">
+                    <h3>AI Project</h3>
+                    <p>
+                        An artificial intelligence related project.
+                    </p>
+                    <a href="#">↗</a>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+<!-- ---------- contact ---------- -->
+
+<div id="contact">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="contact-left">
+
+                <h1 class="sub-title">Contact Me</h1>
+
+                <p>📧 your@email.com</p>
+
+                <p>📱 +91 1234567890</p>
+
+                <div class="social-icons">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Instagram</a>
+                </div>
+
+                <a href="images/my-cv.pdf"
+                   download
+                   class="btn btn2">
+                    Download CV
+                </a>
+
+            </div>
+
+            <div class="contact-right">
+
+                <form id="contactForm">
+
+    <input
+        type="text"
+        id="name"
+        placeholder="Your Name"
+        required
+    >
+
+    <input
+        type="email"
+        id="email"
+        placeholder="Your Email"
+        required
+    >
+
+    <textarea
+        id="message"
+        rows="6"
+        placeholder="Your Message"
+        required
+    ></textarea>
+
+    <button type="submit" class="btn btn2">
+        Submit
+    </button>
+
+</form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>Made For Official Purpose</p>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/your-kit-id.js"
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+    
+</body>
+</html>
